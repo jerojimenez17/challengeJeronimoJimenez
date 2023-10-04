@@ -2,7 +2,7 @@
 import TableItem from "./TableItem";
 const ProductTable = (props) => {
   return (
-    <div className="table-responsive-md">
+    <div className="table-responsive-md h-100 shadow-lg">
       <table className="table table-dark table-hover table-striped">
         <thead>
           <tr>
