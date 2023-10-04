@@ -36,9 +36,9 @@ function App() {
     setFilterCategory(filter);
   };
   return (
-    <div className="app-container bg-black">
+    <div className="app-container bg-black vh-100 overflow-auto">
       <Header />
-      <div className="container my-0">
+      <div className="container my-0 ">
         {loading ? (
           <Loading />
         ) : (
